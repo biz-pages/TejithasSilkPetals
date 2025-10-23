@@ -1,0 +1,109 @@
+# -------------------------------------------------------------------
+# MkDocs Configuration File for [Your Brand Name]
+# Theme: Material for MkDocs (Recommended for extensive customization)
+# -------------------------------------------------------------------
+
+site_name: [Your Brand Name] Documentation / Catalog
+site_url: https://www.yourbrandurl.com/docs
+site_description: Official guide and catalog for all Apparel, Ethnic Wear, Jewelry, and Decor.
+
+# -------------------------------------------------------------------
+# 1. CORE CONFIGURATION
+# -------------------------------------------------------------------
+
+nav:
+  - Home: index.md
+  - Apparel & Fashion: apparel.md
+  - Ethnic Wear & Themes: ethnic-wear.md
+  - Fashion Jewelry: jewelry.md
+  - Decor & Consumables: decor-consumables.md
+  - Payment & Ordering: payment.md
+
+# -------------------------------------------------------------------
+# 2. THEME CONFIGURATION (Material for MkDocs)
+# -------------------------------------------------------------------
+
+theme:
+  name: material
+  custom_dir: docs/overrides # Optional: for advanced customization (CSS/HTML)
+  language: en
+  
+  # --- COLORS & ACCENTS ---
+  palette:
+    # 1. Primary Color (Header, Sidebar Highlights)
+    # Recommended colors: green, indigo, blue, purple, brown, red, amber, teal
+    # Use a color that matches your brand's main color.
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: 'green'      # Base color (e.g., Green for a fresh look)
+      accent: 'pink'        # Accent color (Links, Hover, Buttons - often a bright contrast)
+      toggle:
+        icon: material/weather-sunny # Sun icon for Light Mode
+        name: Switch to dark mode
+        
+    # 2. Dark Mode Configuration (Highly Recommended)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: 'brown'      # Base color for dark theme (e.g., a rich Brown or Deep Purple)
+      accent: 'amber'       # Accent color (e.g., Amber/Gold for luxury contrast)
+      toggle:
+        icon: material/weather-night # Moon icon for Dark Mode
+        name: Switch to light mode
+
+  # --- ICONS ---
+  # Use icons from Material Design Icons (materialdesignicons.com)
+  # or Font Awesome. Format is 'icon-group/icon-name'.
+  icon:
+    logo: material/star-four-points-outline  # Main logo icon in the header
+    
+    # Optional: Customize the icon for the "Home" link
+    # home: material/home-account
+    
+  # --- FONTS (Optional) ---
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+# -------------------------------------------------------------------
+# 3. EXTRA ICONS & EXTENSIONS
+# -------------------------------------------------------------------
+
+# Necessary to use custom icons and advanced Markdown features
+markdown_extensions:
+  # Enable emoji support and customize icons used in the documentation
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      
+# -------------------------------------------------------------------
+# 4. SITE ICONS (Favicon & Socials)
+# -------------------------------------------------------------------
+extra:
+  # Social links (Optional)
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/[yourbrand]
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/[yourbrand]
+      
+# --- Favicon ---
+# Ensure you have a 'favicon.ico' or 'favicon.png' in your 'docs' directory
+extra_css:
+  - css/extra.css
+
+# -------------------------------------------------------------------
+# 5. COPYRIGHT & FOOTER
+# -------------------------------------------------------------------
+copyright: Copyright &copy; 2024 - [Your Brand Name]
+
+# -------------------------------------------------------------------
+# 6. GENERATION & OUTPUT
+# -------------------------------------------------------------------
+# plugins:
+#   - search
+```
