@@ -1,9 +1,3 @@
-This is the perfect final category to round out your inventory and marketing materials! A structured template for decor, focusing on traditional Indian decorative items, will be very helpful.
-
-Here is the template for Home Decor and Festive Embellishments in Markdown format:
-
-***
-
 # 🏡 Decor & Festive Embellishments Template
 
 This template standardizes the classification and detail for all home decor, festive lighting (Diyas), garlands, and hangings.
