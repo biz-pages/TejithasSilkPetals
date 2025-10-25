@@ -41,12 +41,14 @@ plugins:
 nav:
   - Home: README.md
 
-  - Jewellery:
-    - Main: Jewellery/Jewelry-Main.md
-
   - EthnicWear:
     - Main: EthnicWear/EthnicWear-Main.md
 
+  - Jewellery:
+    - Main: Jewellery/Jewelry-Main.md
+
   - Decor:
     - Main: Decor/Decor-main.md
+
+
 

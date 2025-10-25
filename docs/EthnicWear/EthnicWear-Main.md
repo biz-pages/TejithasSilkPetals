@@ -1,6 +1,32 @@
 # 👘 Ethnic Wear Classification and Product Template
 
-This template provides a standardized format for classifying and detailing all Ethnic Wear, focusing on traditional Indian garments and related fusion pieces.
+<iframe 
+    src="https://drive.google.com/file/d/1OLrDMJjiUIZc-JTF9uS7AOc8Iubt8y7f/preview" 
+    width="480" 
+    height="360" 
+    allow="autoplay" 
+    frameborder="0" 
+    allowfullscreen
+></iframe>
+
+<iframe
+    width="640"
+    height="360"
+    src="https://www.youtube.com/embed/uMifpxL0kEc?autoplay=1&mute=1&loop=1&playlist=uMifpxL0kEc"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+></iframe>
+
+<!-- <iframe
+    width="640"
+    height="360"
+    src="https://www.youtube.com/embed/lKZt0-MVkBA?autoplay=1&mute=1&loop=1&playlist=lKZt0-MVkBA"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+></iframe> -->
+
 
 ## I. Basic Product Details
 

@@ -2,7 +2,7 @@
 
 <iframe 
     src="https://drive.google.com/file/d/1a-6OOM_JeGCeVcIsyq2h3dOixI4yt5fY/preview" 
-    width="720" 
+    width="480" 
     height="360" 
     allow="autoplay" 
     frameborder="0" 
