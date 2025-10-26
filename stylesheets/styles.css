@@ -1,0 +1,117 @@
+/* -------------------------------------- */
+/* 1. GLOBAL RESET AND LAYOUT             */
+/* -------------------------------------- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f8f8f8; /* Very light background */
+}
+
+/* --- GRID CONTAINER --- */
+.product-grid {
+    /* 1. Use CSS Grid for the layout */
+    display: grid;
+    /* 2. Define minimum column width and allow 2 to 4 columns */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* 3. Add space between the grid items */
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* -------------------------------------- */
+/* 2. PRODUCT CARD STYLING (No Borders)   */
+/* -------------------------------------- */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow gives definition without lines */
+    text-align: center;
+    overflow: hidden; /* Ensures image corners are contained */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for interaction */
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* --- IMAGE CONTAINER --- */
+.product-image {
+    width: 100%;
+    height: 300px; /* Fixed height for consistent grid appearance */
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image img {
+    /* Ensures the image fills the container and maintains aspect ratio */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops the image to fill the space without distortion */
+    display: block;
+}
+
+/* --- DETAILS SECTION --- */
+.product-details {
+    padding: 15px 20px 25px; /* Padding inside the card */
+}
+
+.product-name {
+    font-size: 1.3em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.product-price {
+    font-size: 1.2em;
+    color: #8B4513; /* Saddle Brown - a rich tone for pricing */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-id, .product-material {
+    font-size: 0.85em;
+    color: #777;
+    margin: 2px 0;
+}
+
+/* -------------------------------------- */
+/* 3. TAGS AND BUTTONS                    */
+/* -------------------------------------- */
+.product-tags {
+    margin: 10px 0;
+    min-height: 25px; /* Ensures consistent tag spacing */
+}
+
+.product-tags span {
+    display: inline-block;
+    background-color: #f0fff0; /* Honeydew background for tags */
+    color: #2E8B57; /* Sea Green text */
+    padding: 4px 10px;
+    margin: 3px 2px;
+    border-radius: 50px; /* Pill shape for tags */
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.view-details-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #5F9EA0; /* Cadet Blue */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: background-color 0.3s;
+}
+
+.view-details-btn:hover {
+    background-color: #4682b4; /* Steel Blue on hover */
+}
