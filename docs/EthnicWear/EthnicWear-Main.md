@@ -10,26 +10,6 @@
 ></iframe>
 
 
-<iframe
-    width="640"
-    height="360"
-    src="https://www.youtube.com/embed/uMifpxL0kEc?autoplay=1&loop=1&playlist=uMifpxL0kEc"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-></iframe>
-
-<!-- <iframe
-    width="640"
-    height="360"
-    src="https://www.youtube.com/embed/lKZt0-MVkBA?autoplay=1&mute=1&loop=1&playlist=lKZt0-MVkBA"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-></iframe> -->
-
-<!-- src="https://www.youtube.com/embed/uMifpxL0kEc?autoplay=1&mute=1&loop=1&playlist=uMifpxL0kEc" -->
-
 ## I. Basic Product Details
 
 | Field | Description | Example |
